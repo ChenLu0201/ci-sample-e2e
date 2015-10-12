@@ -2,7 +2,7 @@
 # Run E2E tests
 
 #install packages
-# npm install
+npm install
 
 #clear log
 rm -rf ss.log
