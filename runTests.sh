@@ -12,7 +12,7 @@ now=$(date +"%T")
 echo "start time : $now"
 ./node_modules/selenium-standalone/bin/selenium-standalone install
 ./node_modules/selenium-standalone/bin/selenium-standalone start > ss.log &
-sleep 5
+sleep 1
 now=$(date +"%T")
 echo "start time : $now"
 
