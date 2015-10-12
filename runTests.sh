@@ -23,4 +23,4 @@ echo "start time : $now"
 ps -ef | grep node_modules/selenium-standalone | awk '{print $2}' | xargs kill -9
 
 #stop bootRun server
-ps -ef | grep 8_CI_With_Jenkins/ci-sample | awk '{print $2}' | xargs kill -9
+ps -ef | grep ci-sample-application | awk '{print $2}' | xargs kill -9
