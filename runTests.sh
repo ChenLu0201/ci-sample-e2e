@@ -10,6 +10,7 @@ rm -rf ss.log
 #start selenium server
 now=$(date +"%T")
 echo "start time : $now"
+./node_modules/selenium-standalone/bin/selenium-standalone install
 ./node_modules/selenium-standalone/bin/selenium-standalone start > ss.log &
 sleep 5
 now=$(date +"%T")
