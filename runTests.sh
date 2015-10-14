@@ -20,7 +20,5 @@ echo "start time : $now"
 ./node_modules/webdriverio/bin/wdio wdio.conf.js
 
 #stop selenium server
-ps -ef | grep node_modules/selenium-standalone | awk '{print $2}' | xargs kill -9
+ps -ef | grep node_modules/selenium-standalone | awk '{print $2}' | xargs kill -9 &
 
-#stop bootRun server
-ps -ef | grep ci-sample-application | awk '{print $2}' | xargs kill -9
